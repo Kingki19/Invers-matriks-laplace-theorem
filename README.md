@@ -1,1 +1,1 @@
-# project-mandiri
+Jika kalian gabut mari buat project bersama
