@@ -1,5 +1,9 @@
 # Logika program
+
 *Belum selesai*
+
+*masih bingung cara ngebuat rekursi pada kofaktor*
+
 ```
 declaration:
 vector<vector<float>> matriks
@@ -8,10 +12,12 @@ float                 determinan
 # rekursi menggunakan Kofaktor
 funct determinan(matriks.size, matriks)
 {
+  float hasil
   If matriks.size == 2:
-    
+    return 
   Else
-  
+    
+    matriks.size -= 1
   EndIf
 }
 
