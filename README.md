@@ -1,4 +1,4 @@
-<h1> Invers matriks dengan OBE </h1>
+<h1> Invers matriks dengan OBE (laplace theorem)</h1>
 <h3> Dokumentasi ada di main.cpp (dibuat di vscode, makanya dokumentasi jadi satu dalam satu file) </h3>
 <h4> Masalah di dalam kode yang belum dibuat: </h4>
 <li>
