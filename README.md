@@ -1,11 +1,11 @@
 <h1> Invers matriks dengan OBE</h1>
 <h3> Dokumentasi ada di main.cpp (dibuat di vscode, makanya dokumentasi jadi satu dalam satu file) </h3>
 <h4> Masalah di dalam kode yang belum dibuat: </h4>
-<li>
-<ol> <p> menentukan determinan menggunakan metode kofaktor (lama) atau menggunakan LU decomposition </p> </ol>
-<ol> <p> membuat logika dari program secara otomatis (ada di file logic.md) </p> </ol>
-<ol> <p> mengalokasikan memori secara efektif </p> </ol>
-</li>
+<ul>
+<li> <p> menentukan determinan menggunakan metode kofaktor (lama) atau menggunakan LU decomposition </p> </li>
+<li> <p> membuat logika dari program secara otomatis (ada di file logic.md) </p> </li>
+<li> <p> mengalokasikan memori secara efektif </p> </li>
+</ul>
 
 <p> Hei diriku di masa depan, kuharap kau dapat menyelasaikan proyek gaje ini </p>
 <p> Diriku di masa ini belum bisa menyelesaikannya secara efektif dan efisien </p>
