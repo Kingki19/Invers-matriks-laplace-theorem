@@ -3,7 +3,7 @@
 <h4> Masalah di dalam kode yang belum dibuat: </h4>
 <li>
 <ol> menentukan determinan menggunakan metode kofaktor (lama) atau menggunakan LU decomposition </ol>
-<ol> membuat logika dari program secara otomatis </ol>
+<ol> membuat logika dari program secara otomatis (ada di file logic.md) </ol>
 <ol> mengalokasikan memori secara efektif </ol>
 </li>
 
