@@ -2,9 +2,9 @@
 <h3> Dokumentasi ada di main.cpp (dibuat di vscode, makanya dokumentasi jadi satu dalam satu file </h3>
 <h4> Masalah di dalam kode yang belum dibuat: </h4>
 <li>
-<ul> menentukan determinan menggunakan metode kofaktor (lama) atau menggunakan LU decomposition </ul>
-<ul> membuat logika dari program secara otomatis </ul>
-<ul> mengalokasikan memori secara efektif </ul>
+<ol> menentukan determinan menggunakan metode kofaktor (lama) atau menggunakan LU decomposition </ol>
+<ol> membuat logika dari program secara otomatis </ol>
+<ol> mengalokasikan memori secara efektif </ol>
 </li>
 
 <p> Hei diriku di masa depan, kuharap kau dapat menyelasaikan proyek gaje ini </p>
