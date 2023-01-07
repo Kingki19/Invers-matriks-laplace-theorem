@@ -27,25 +27,31 @@ flowchart TB
   subgraph invers
     mumi(matriks utama = matriks input)
     mid{{matriks identitas}}
-    msA{{matriks sekunder}}
-    muA{{matriks utama}}
+    msAw{{matriks sekunder}}
+    muAw{{matriks utama}}
     msmid(matriks sekunder = matriks identitas)
     
-    muA --> mumi
-    msA --> msmid
+    muAw --> mumi
+    msAw --> msmid
     mid --> msmid
     
     muP[/matriks utama/]
     msP[/matriks sekunder/]
     mumi --> muP
     msmid --> msP
+    
+    muPmid{matriks utama == matriks identitas?}
+    muP --> muPmid
+    muPmid -- yes -.-> msP --> io 
+    muPmid -- no --> pI(proses invers)
   end
   s --> mi
   mi --> determinan
   mi -.-> mumi
-  d --determinan != 0--> invers --> io --> e
+  d --determinan != 0--> invers
   d --determinan == 0--> mti --> e
   determinan --> d
+  io --> e
 ```
-
-<p> Diedit pada 2 Januari 2023 </p>
+<p> flowchartnya masih berantakan, benerin lagi! Logikanya udah keliatan </p>
+<p> Diedit pada 7 Januari 2023 </p>
